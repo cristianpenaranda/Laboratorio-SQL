@@ -1,0 +1,114 @@
+header nav img{
+    float: left;
+	width: 15%;
+}
+
+header nav a h2{
+    color:white; 
+    font-size:40px;
+    float: left;
+}
+
+.navbar{
+	background-color: #207245;
+}
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+	 border:0 solid #fff; 
+	 border-bottom-width:1px;
+	 padding-bottom:10px;
+	 text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+.row{
+    padding: 2%;
+}
+
+.row h2{
+	text-align: center;
+}
+
+.row img{
+	width: 50%;
+	display:block;
+	margin:auto;
+}
+
+.enlaces a{
+    padding: 1%;
+    margin-right: 2%;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.enlaces a:hover{
+    background-color: #207245; 
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.card{
+    width: 20rem;
+    margin: 1%;
+    border: solid;
+    border-color: #207245;
+}
+
+#cargar{
+     border: solid;
+     border-color: #207245;
+}
+
+
+footer{
+    position: inherit;
+    height: 2%;
+    width: 100%;
+    background-color: #207245;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin: 1%;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    header nav a h2{ 
+        font-size:20px;
+        float: left;
+    }
+
+    footer{
+        position: inherit;
+    }
+
+    .card{
+        margin: 4%;
+        width:90%;
+    }
+}
